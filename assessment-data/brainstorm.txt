@@ -1,0 +1,36 @@
+Brainstorm:
+Users can login
+Users can see pets available
+Employees can login
+Employees can see available pets
+
+Table:
+Users
+Auth
+Employees
+Pets
+Department
+Order
+Choice
+cats
+dogs
+
+Relationship:
+one-to-one:
+Users to Auth
+Employees to Users
+Employees to Department
+Order to User
+Order to Choice
+
+
+
+one-to-many:
+Choice - cat
+Choice - dog
+Users - Order
+
+many to many:
+
+
+
